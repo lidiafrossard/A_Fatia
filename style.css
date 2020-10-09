@@ -1,0 +1,197 @@
+/* Desktop  */
+@media only screen and (min-width: 769px) { 
+    
+    body{
+            background: #C799A6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Paytone One', sans-serif;
+            font-size: 25px;
+            
+            
+        }
+     
+    #head img{
+        width: 200px;
+        height: 200px;
+        background-color: #000;
+        color: #FFF;
+        border-radius: 50%;
+        border: #EEABC4 solid 10px;
+        margin-top: auto;
+    }
+    
+    #head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #texto_box {
+        color: whitesmoke;
+       
+        height: 176px;
+        
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        margin-bottom: 10%;  
+        
+    }
+
+    #container{
+        margin-top: 20px;
+        width: 983px;
+        height: 591px;
+             
+        
+       
+    
+    }
+
+    #links_redes_box{
+        
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        
+        
+    }
+    li{list-style-type: none; float: left; margin-left: 30px; }
+
+
+    #links_redes_box a {
+            text-decoration: none;
+            font-size: 30px;
+            color: #4B2840;
+            margin-left: 10px;
+
+        
+        
+            
+
+    }
+
+
+
+    a:visited{
+        color: black
+    }
+
+    h1{ font-size: 35px;
+
+    }
+
+    
+
+    .textolink:hover{
+        color: #EEABC4;
+    }
+
+}
+
+/* Mobile  */
+
+@media only screen and (max-width: 768px) {
+    body{
+        background-image: url(https://raw.githubusercontent.com/lidiafrossard/Welcome_LidiaFrossard/master/Imagens/jason-corey-AqgmUPBEHKg-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Paytone One', sans-serif;
+        font-size: 25px;
+        
+        
+    }
+ 
+    #head img{
+        width: 200px;
+        height: 200px;
+        background-color: #000;
+        color: #FFF;
+        border-radius: 50%;
+        border: 	#FF0000 solid 10px;
+        margin-top: auto;
+    }
+
+    #head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #texto_box {
+        color: whitesmoke;
+    
+        height: 176px;
+        
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        align-items: center;
+        margin-bottom: 10%;  
+        
+    }
+
+    #container{
+        margin-top: 20px;
+        width: 983px;
+        height: 591px;
+            
+        
+    
+
+    }
+    #links_redes_box{
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+
+
+    }
+    li{list-style-type: none; float: left; margin-left: 30px; }
+
+
+    #links_redes_box a {
+        text-decoration: none;
+        font-size: 20px;
+        color:#FFA500;
+        margin-left: 10px;
+
+    
+    
+        
+
+    }
+
+
+
+    a:visited{
+    color: black
+    }
+
+    h1{ font-size: 35px;
+
+    }
+
+    .textolink{
+    background-color: black;
+    }
+
+    .textolink:hover{
+    background-color: #FEFFFF;
+    }
+
+    
+}
