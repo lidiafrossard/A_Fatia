@@ -6,12 +6,16 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: 'Paytone One', sans-serif;
-            font-size: 25px;
+            font-family: 'Tangerine', cursive;
+            font-size: 40px;
             
             
         }
      
+    
+
+    
+
     #head img{
         width: 200px;
         height: 200px;
@@ -31,19 +35,31 @@
 
     #texto_box {
         color: whitesmoke;
-       
-        height: 176px;
-        
+        height: 240px;
         display: flex;
         flex-direction: column;
         align-self: center;
         align-items: center;
-        margin-bottom: 10%;  
+        margin-bottom: 15%;  
+        
         
     }
+    
+    #texto_box a {
+        text-decoration: none;
+        font-size: 50px;
+        color:  #F4B942;
+        margin-left: 10px;
 
+    
+     
+
+}
+
+
+    
     #container{
-        margin-top: 20px;
+        margin-top: 70px;
         width: 983px;
         height: 591px;
              
@@ -66,13 +82,12 @@
 
     #links_redes_box a {
             text-decoration: none;
-            font-size: 30px;
+            font-size: 40px;
             color: #4B2840;
-            margin-left: 10px;
+            margin-left: 20px;
 
         
-        
-            
+         
 
     }
 
@@ -82,9 +97,10 @@
         color: black
     }
 
-    h1{ font-size: 35px;
+    h1{ font-size: 60px;
 
     }
+
 
     
 

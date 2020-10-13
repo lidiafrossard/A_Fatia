@@ -1,0 +1,54 @@
+body{
+    background: #EFF2F1;
+    font-family: 'Tangerine', cursive;
+}
+
+.head img {
+    width: 950px;
+    height: 315px;
+    
+    
+}
+
+.head{
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+.container{
+    width: auto;
+    display: flex;
+}
+.card{
+    width: 500px;
+    padding: 10px;
+    background: #F4B942;
+    margin: 10px;
+    
+    
+}
+
+.card p{
+    font-size: 30px;
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+}
+
+.card img {
+        width: 100%;
+        
+    }
+        
+.card a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .card a:hover{
+        color: blue;
+        text-decoration: none;
+    }
